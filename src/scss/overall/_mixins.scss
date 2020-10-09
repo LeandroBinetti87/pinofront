@@ -1,0 +1,10 @@
+@mixin alineacionVertical(){
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin clip-path-polygon($a ,$b, $c, $d){
+    -webkit-clip-path: polygon($a ,$b, $c, $d); 
+    clip-path: polygon($a ,$b, $c, $d);
+}

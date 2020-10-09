@@ -1,0 +1,108 @@
+.header{
+    background: $header-color-fondo;
+    height: 60px;
+    width: 100%;
+	z-index: 10;
+    border-bottom: 2px solid #ddd;
+    // background-color: gray;
+    @media screen and (min-width:47em){
+		border-bottom:	none;
+        position: relative;
+        height: 90px;
+    }
+    &__logo{
+        width: 60px;
+        height: auto;
+        float: left;
+        margin: 0;
+        padding: 12px 0px 0px 5px;
+        &--txt{
+            color: $header-color-logo;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        @media screen and (min-width:47em){
+            width: 90px;
+            padding-top: 25px;
+        }
+    }
+    
+    &__boton{
+        float: right;
+        margin: 0;
+        padding-right: 10px;
+        padding-top: 10px;
+        color: $paleta-celeste;
+		cursor: pointer;
+        @media screen and (min-width:47em){
+			 display: none;
+        }
+    }
+    
+    &__nav{
+        background:white;
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 1px;
+        display: none;
+        z-index: 100;
+		position: absolute;
+		left: 0;
+		top: 59px;
+        @media screen and (min-width:47em){
+            position: inherit;
+            display: block;
+            width: auto;
+            height: 25px;
+            float: right;
+            margin-top: 25px;
+        }
+    }
+    .menu{
+        background-color: #fff;
+        border-bottom: 2px solid #ddd;
+        margin:0;
+        list-style: none;
+        z-index: 100;
+        @media screen and (min-width:47em){
+            width: 100%;
+			border-bottom: none;
+			display: flex;
+			justify-content: center;
+			flex-wrap: nowrap;
+            //@include flex(center,nowrap)
+        }
+        &__item{
+            text-align: center;
+            padding: 0px;          
+            @media screen and (min-width:47em){
+            }
+        }
+        &__link{  
+            text-decoration: none;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            display: block;
+            padding: 12px;//15px;
+            color:$paleta-celeste;
+			font-size: 1em;
+            text-align: center;
+            
+            &--active{
+                background-color: $menu-item-active;
+                color: $menu-color-texto-active;
+                border-radius: 8px;
+                height: 70%;
+                margin-top: 5px;
+                padding-top: 7px;
+            }
+		}
+		
+    }
+    .icon-menu:before{
+		 font-size: 2.5em;   
+	} 
+
+}
+

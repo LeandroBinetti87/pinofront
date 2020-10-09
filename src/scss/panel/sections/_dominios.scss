@@ -1,0 +1,39 @@
+.dominios{
+	//background-color: steelblue;
+	margin-top: 80px;
+	&__container{
+		max-width: 1000px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 20px;
+		@media screen and (min-width:45em){
+			padding-left: 250px;
+		}
+		// background-color: tomato;
+	}
+	&__item{
+		// background-color: red;
+		width: 100%;
+		border: 1px solid #ccc;
+		margin-bottom: 1rem;
+		background-color: #4285f4;
+		color: #ddd;
+		@media screen and (min-width:45em){
+			width: 48%;
+			margin:1%;
+		}
+	}
+
+	&__titulo{
+		background-color: #4285f4;
+		padding: .5rem;
+		border-bottom: 1px solid #ccc;
+	}
+
+	&__contenido{
+		padding: .5rem;
+		background-color: #fff;
+		color: #4285f4;
+		font-size: 1.2em;
+	}
+}

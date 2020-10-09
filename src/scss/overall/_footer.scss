@@ -1,0 +1,174 @@
+.footer{
+    background: $paleta-oscuro;
+    color:darkgray;
+    padding: 20px 0;
+    height: auto;
+    
+    @media screen and (min-width:30em){
+        // @include clip-path-polygon(0%  7%, 100% 0, 100% 100%, 0% 100%);
+        margin-top: -52px;
+        padding: 60px 0 10px 0;
+       // height: 270px;
+    }
+    @media screen and (min-width:47em){
+       // height: 360px
+        margin-top: -60px;
+        padding: 100px 0 10px 0;
+        
+    }
+    @media screen and (min-width:60em){
+       // height: 600px;
+        margin-top: -150px;
+        padding: 260px 0 10px 0;
+    }
+    
+    &__container{
+        @media screen and (min-width:47em){
+			//@include flex(center,nowrap);
+			display: flex;
+			justify-content: center;
+			flex-wrap: nowrap;
+        }
+    }
+    &__item{
+        padding: 10px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        max-width: 400px;
+    
+        @media screen and (min-width:47em){
+            max-width: none;
+            width: 33.333%;
+        }
+      //  @media screen and (min-width:60em){
+        //     padding: 0px;
+        //}
+    }
+    &__titulo{
+        text-align: left;
+        color: aliceblue;
+        font-weight: 200;
+        margin-bottom: 5px;
+        @media screen and (min-width:30em){
+            text-align: left;
+        }
+    }
+    .contacto{
+        &__menu{
+            list-style: none;
+            &--item{
+              padding: 4px; 
+              font-size: .9em;
+              text-align: left;
+                @media screen and (min-width:30em){
+                    text-align: left;
+                    padding: 5px 0;
+                }
+            }
+            .icono{
+                padding-right: 10px;
+            }
+		}
+		&__whatsapp{
+			text-decoration: none;
+			color: #fff;
+			background-color: #25d366;
+			padding: 8px 12px;
+			border-radius: 5px;
+			margin-top: 5px;
+			display: block;
+			width: 150px;
+			text-align: center;
+			transition: all 0.4s;
+			&:hover{
+				background: #000;
+			}
+		}
+    }
+    
+    .redes__contenedor--icono{
+        padding-left: 5px;
+        a{
+            color: darkgray;
+        }
+      }
+    
+    .redes{
+        //max-width: 200px;
+        //width: 70%;
+        margin: 20px auto;
+        &--icono{
+            display: block;
+            text-align: center;
+            float: left;
+            padding: 5px;
+			margin: 0;
+			font-size: 1.4em;
+        }
+      }
+    
+    .formulario{
+        //padding: 5px;
+        &--item{
+            width: 100%;
+            display: block;
+            background: none;
+            color: lightgray;
+            padding: 5px;
+            margin-bottom: 5px;
+            resize: none;
+            border: none;
+            border: 1px solid #444;
+            &[type="submit"],&[type="button"]{
+                cursor: pointer;
+                border: none;
+                background: $paleta-naranja;
+                padding: 12px;
+                display: block;
+                width: 150px;
+                margin: 0 auto;
+                margin-top: 8px;
+                float: right;
+                transition: all .5s;
+                &:hover{
+                    background: #000;
+                }
+            }
+        }
+    }
+    .creditos{
+        text-align: center;
+        font-size: .9em;
+    }
+    &-errores{
+        width: 80%;
+        font-size: 1em;
+        display: none;
+        /*background: rgba(231, 76, 60,1.0);
+        */color: rgba(231, 76, 60,1.0);
+        padding: 0 5px 0 5px;
+    }
+    
+    &__form--resultado p{
+         display: block;
+         width: 100%;
+         height: auto;//50px;
+         color: aliceblue;
+         text-align: center;
+         z-index: 1000;
+         margin:0px 0 10px 0;
+         padding: 20px 10px;
+         text-align: center;
+         font-size: 1.1em;
+         color: #fff;//#9C9C9C;
+    }
+    
+    .envio-correcto{
+       background: #1E824C;// background: rgba(39, 174, 96,1.0);
+    }
+
+    .envio-incorrecto{
+        background: rgba(231, 76, 60,1.0);
+    }
+}

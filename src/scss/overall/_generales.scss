@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+
+//@font-face {
+	//font-family: "Lato";}
+//}
+
+body{
+    font-size: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+
+img{
+    height: auto;
+    max-width: 100%;
+	display: block;
+}
+
+$color-primario: #1568E3;
+$color-secundario: #fff;
+$titulo-color: white;
+$header-color-fondo: #fff;
+$header-color-logo: #1568E3;
+$menu-item-active: #1568E3;
+$menu-color-texto-active: #fff;
+$menu-color-texto: red;
+$paleta-celeste: #424242;
+$paleta-naranja:#f1803c;
+$paleta-verde: #b4d173;
+$paleta-oscuro: #0C112C;
+$adaptable-color-fondo: #dadada;
+$color-titulo-seccion: #444;
+$paleta-login-primario: #9708CC;// #00C851;
+
+h1{
+    color: $titulo-color;
+    font-size: 1.6em;
+    font-weight: 200;
+    @media screen and (min-width:60em){
+        font-size: 2.2em;
+    }
+}
+
+h2{
+    color: #fff;
+    font-size: 1.1em;
+	font-weight: 100;
+}
+
+h3{
+    color: black;
+}
+
+.clear{
+    clear: both;
+    @media screen and (min-width:47em){
+        clear: none;
+    }
+}
+
+.tituloDeSeccion{
+    font-size: 1.5em;
+    color: $color-titulo-seccion;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&::before,
+	&::after{
+		content: "";
+		display: block;
+		width: 25px;
+		height: 2px;
+		background-color: #444;
+		margin-left: 8px;
+	}
+
+	&::before{
+		margin-right: 8px;
+	}
+    
+    @media screen and (min-width:30em){
+    }
+    @media screen and (min-width:47em){
+        font-size: 1.8em;
+    }
+     @media screen and (min-width:60em){
+         margin-bottom: 40px;
+        font-size: 2.6em;
+    }
+}
+
+.subtituloDeSeccion{
+    font-size: 1.1em;
+    color: $color-titulo-seccion;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+    @media screen and (min-width:30em){
+    }
+    @media screen and (min-width:47em){
+        font-size: 1.4em;
+    }
+     @media screen and (min-width:60em){
+        
+    }
+}
+
+.seccionMargenInferior{
+    margin-bottom: 40px;
+}
+.container{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+    @media screen and (min-width:30em){
+		width: 95%;
+    }
+    @media screen and (min-width:47em){
+        //background: green;
+       // padding-left: 10px;
+        //padding-right: 10px;
+        
+    }
+    @media screen and (min-width:60em){
+        //background: red;
+    }
+   
+}
