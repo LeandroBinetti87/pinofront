@@ -19,7 +19,7 @@ $paleta-naranja:#f1803c;
 $paleta-verde: #b4d173;
 $paleta-oscuro: #0C112C;
 $adaptable-color-fondo: #dadada;
-$color-titulo-seccion: #444;
+$color-titulo-seccion: #444444;
 $paleta-login-primario: #9708CC;// #00C851;
 
 
@@ -75,29 +75,14 @@ h3{
     color: $color-titulo-seccion;
 	text-align: center;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	&::before,
-	&::after{
-		content: "";
-		display: block;
-		width: 25px;
-		height: 2px;
-		background-color: #444;
-		margin-left: 8px;
-	}
-
-	&::before{
-		margin-right: 8px;
-	}
-    
+    justify-content: center; 
     @media screen and (min-width:30em){
     }
     @media screen and (min-width:47em){
         font-size: 1.8em;
     }
      @media screen and (min-width:60em){
-         margin-bottom: 40px;
+        margin-bottom: 40px;
         font-size: 2.6em;
     }
 }
