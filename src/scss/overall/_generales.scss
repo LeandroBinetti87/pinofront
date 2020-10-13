@@ -6,22 +6,6 @@
     box-sizing: border-box; 
 }
 
-//@font-face {
-	//font-family: "Lato";}
-//}
-
-body{
-    font-size: 100%;
-	font-family: 'Lato', sans-serif;
-}
-
-
-img{
-    height: auto;
-    max-width: 100%;
-	display: block;
-}
-
 $color-primario: #1568E3;
 $color-secundario: #fff;
 $titulo-color: white;
@@ -37,6 +21,28 @@ $paleta-oscuro: #0C112C;
 $adaptable-color-fondo: #dadada;
 $color-titulo-seccion: #444;
 $paleta-login-primario: #9708CC;// #00C851;
+
+
+//@font-face {
+	//font-family: "Lato";}
+//}
+
+body{
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.main{
+    background-color: $color-secundario;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+	display: block;
+}
+
 
 h1{
     color: $titulo-color;

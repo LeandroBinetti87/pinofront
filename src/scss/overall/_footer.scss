@@ -3,7 +3,7 @@
     color:darkgray;
     padding: 20px 0;
     height: auto;
-    
+    z-index: -1;
     @media screen and (min-width:30em){
         // @include clip-path-polygon(0%  7%, 100% 0, 100% 100%, 0% 100%);
         margin-top: -52px;

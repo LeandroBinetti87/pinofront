@@ -8,6 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <Banner />
+      <main className="main">
+      </main>
       <Footer />
     </div>
   );
