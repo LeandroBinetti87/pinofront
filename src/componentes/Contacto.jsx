@@ -8,12 +8,11 @@ const Contacto = () => (
                 <div className="contacto__izquierda">
                     <h2 className="tituloDeSeccion contacto__titulo--seccion">Hola!</h2>
                     <h3 className="contacto__subtitulo--seccion">Escríbenos tú mensaje</h3>
-                    {/* <figure className="banner__figura"><img className="banner__figura--imagen" src="img/banner.jpg" alt="" /></figure> */}
                     <form className="contacto__form" action="" method="post" id="formulario">
                         <input className="formulario--item" type="text" name="email" placeholder="Email..." id="email" />
-                        <span className="footer-errores" id="mensaje2">ingrese un email correcto</span>
+                        {/* <span className="footer-errores" id="mensaje2">ingrese un email correcto</span> */}
                         <textarea className="formulario--item" name="comentario" cols="30" rows="6" placeholder="Comentario" id="comentario"></textarea>
-                        <span className="footer-errores" id="mensaje3">ingrese un comentario</span>
+                        {/* <span className="footer-errores" id="mensaje3">ingrese un comentario</span> */}
                         <div className="footer__form--resultado envio-incorrecto" id="resultado"></div>
                         <input className="formulario--item boton" type="button" value="Enviar" onclick="validacion()" />
                         <div className="clear"></div>
@@ -26,19 +25,5 @@ const Contacto = () => (
         </div>
     </section>
 )
-// style={{ backgroundImage: "url(" + contacto_img + ")"}}
 
 export default Contacto;
-
-{/* <div className="footer__item formulario">
-<h3 className="footer__titulo">Envienos su consulta</h3>
-<form className="footer__form" action="" method="post" id="formulario">
-    <input className="formulario--item" type="text" name="email" placeholder="Email*" id="email" />
-    <span className="footer-errores" id="mensaje2">ingrese un email correcto</span>
-    <textarea className="formulario--item" name="mensaje" cols="30" rows="10" placeholder="Mensaje*" id="mensaje"></textarea>
-    <span className="footer-errores" id="mensaje3">ingrese un comentario</span>
-    <div className="footer__form--resultado envio-incorrecto" id="resultado"></div>
-    <input className="formulario--item boton" type="button" value="Enviar" onclick="validacion()" />
-    <div className="clear"></div>
-</form>
-</div> */}

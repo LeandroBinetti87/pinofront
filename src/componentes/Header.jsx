@@ -9,7 +9,7 @@ const Header = () => (
                 <span className="header__logo--txt">PINOSOFT</span>
             </figure>
             <figure className="header__boton" id="header__boton">
-                <div className="icon-menu"></div>
+                <div className="icon icon-bars"></div>
             </figure>
             <div className="clear"></div>
                 <nav className="header__nav" id="header__nav">
