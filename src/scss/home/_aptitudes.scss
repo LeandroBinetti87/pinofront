@@ -1,0 +1,22 @@
+.aptitudes{
+    &__container{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        @media screen and (min-width:45em){
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    &__item{
+        text-align: center;
+        padding: 15px;
+        &--cantidad{
+            font-size: 1.6em;
+            font-weight: 100;
+        }
+        &--descripcion{
+            color: #444;
+        }
+    }
+}
