@@ -7,7 +7,7 @@ const Contacto = () => (
             <div className="contacto__form--container">
                 <div className="contacto__izquierda">
                     <h2 className="tituloDeSeccion contacto__titulo--seccion">Hola!</h2>
-                    <h3 className="contacto__subtitulo--seccion">Escríbenos tú mensaje</h3>
+                    <h3 className="contacto__subtitulo--seccion">Escríbenos tu mensaje</h3>
                     <form className="contacto__form" action="" method="post" id="formulario">
                         <input className="formulario--item" type="text" name="email" placeholder="Email..." id="email" />
                         {/* <span className="footer-errores" id="mensaje2">ingrese un email correcto</span> */}
