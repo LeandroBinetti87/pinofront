@@ -2,7 +2,7 @@ import React from 'react';
 // import contacto_img from '../img/contacto.jpg'
 
 const Contacto = () => (
-    <section className="contacto">
+    <section className="contacto" id="contacto">
         <div className="container contacto__container" >
             <div className="contacto__form--container">
                 <div className="contacto__izquierda">
