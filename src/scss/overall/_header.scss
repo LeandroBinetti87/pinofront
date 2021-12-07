@@ -11,19 +11,20 @@
         height: 90px;
     }
     &__logo{
-        width: 60px;
+        width: 150px;
         height: auto;
         float: left;
         margin: 0;
-        padding: 12px 0px 0px 5px;
+        padding: 20px 0px 0px 5px;
         &--txt{
             color: $header-color-logo;
-            font-size: 2em;
+            font-size: 1em;
             font-weight: bold;
         }
         @media screen and (min-width:47em){
-            width: 90px;
-            padding-top: 25px;
+            width: auto;
+            padding-top: 33px;
+            font-size: 1.4em;
         }
     }
     

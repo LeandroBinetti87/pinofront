@@ -6,7 +6,7 @@ const Header = () => (
         <div className="container">
             <figure className="header__logo">
                 {/* <img src="img/logo.png" alt="christian peralta" /> */}
-                <span className="header__logo--txt">PINOSOFT</span>
+                <span className="header__logo--txt">PINO SOFTWARE</span>
             </figure>
             <figure className="header__boton" id="header__boton">
                 <div className="icon icon-bars"></div>

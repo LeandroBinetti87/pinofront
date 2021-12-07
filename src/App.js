@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Banner />
       <main className="main">
-        <Aptitudes />
+        {/* <Aptitudes /> */}
         <Servicios />
         <Trabajos />
         <Contacto />
