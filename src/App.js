@@ -1,5 +1,5 @@
 import React from 'react';
-import Aptitudes from './componentes/Aptitudes';
+// import Aptitudes from './componentes/Aptitudes';
 import Banner from './componentes/Banner';
 import Footer from './componentes/Footer';
 import Header from './componentes/Header';

@@ -11,6 +11,12 @@
     &__titulo--seccion{
         margin-bottom: 50px;
     }
+
+    &__imagen{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     
     &__item{
         width: 85%;
@@ -21,17 +27,26 @@
         position: relative;
         border-radius: 5px;
         background: linear-gradient(#81B4FF, #1568E3);
-        padding-top: 5px;
+        position: relative;
+        overflow: hidden;
         @media(min-width:768px){
         }
 
         @media screen and (min-width:60em){
             margin: 15px 20px;
         }
+        &--trasera{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: linear-gradient(rgba(129,180,255,0.9), rgba(21,104,227,0.9));
+            height: 100%;
+            width: 100%;
+        }
     }
     
     .titulo{
-        font-size: 36px;
+        font-size: 1.6em;
         text-align: center;
         margin-top: 30px;
         margin-bottom: 10px;
