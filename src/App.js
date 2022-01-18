@@ -7,6 +7,7 @@ import Trabajos from './componentes/Trabajos';
 import Contacto from './componentes/Contacto';
 import './scss/estilos.scss'
 import Servicios from './componentes/Servicios';
+
 function App() {
   return (
     <div className="App">
