@@ -5,12 +5,10 @@ const Header = () => (
     <header className="header" id="inicio">
         <div className="container">
             <figure className="header__logo">
-                {/* <img src="img/logo.png" alt="christian peralta" /> */}
                 <span className="header__logo--txt">PINO SOFTWARE</span>
             </figure>
-            <figure className="header__boton" id="header__boton">
-                <div className="icon icon-bars"></div>
-            </figure>
+                <input className="header__checkbox" type="checkbox" name="icon_bar" id="icon_bar" />
+                <label htmlFor="icon_bar"><div className="icon icon-bars"></div></label>
             <div className="clear"></div>
                 <nav className="header__nav" id="header__nav">
                     <ul className="header__menu menu">
