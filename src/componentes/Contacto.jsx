@@ -66,7 +66,7 @@ class Contacto extends Component{
                             <h3 className="contacto__subtitulo--seccion">Escríbenos tu mensaje</h3>
                             <div>
                                 {this.state.mailSent &&
-                                    <div>Thank you for contcting us.</div>
+                                    <p class="contacto__email--result">Mensaje enviado.Gracias por contactarnos</p>
                                 }
                             </div>
                             <form className="contacto__form">
